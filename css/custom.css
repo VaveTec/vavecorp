@@ -1,0 +1,11 @@
+.hero-modify{
+    margin-top: 100vw;
+}
+@media (min-width: 768px){
+    .hero-modify{
+        margin-top: 0%;
+    }
+}
+h1,h2,h3,h5{
+    color: #299bdd;
+}
