@@ -7,19 +7,6 @@ body{
   
   /* max-width: 100%; */
 }
-body::-webkit-scrollbar {
-  width: 8px;               /* width of the entire scrollbar */
-}
-
-body::-webkit-scrollbar-track {
-  background: white;        /* color of the tracking area */
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: blue;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid white;  /* creates padding around scroll thumb */
-}
 
 
 /*!
@@ -3965,6 +3952,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -10962,9 +10950,8 @@ p {
     /* padding-top: 1rem;
     padding-bottom: 1rem; */
     padding: 0%;
-    background-color: #212529;
-    background-color: white;
-    box-shadow: 0px 0px 10px 0px black;
+    background-color: #f6f6f6;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.397);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10986,7 +10973,7 @@ header.masthead {
   text-align: left;
   color: rgb(0, 0, 0);
   background-color: #f7f7f7;
-  background-image: url('../assets/img/heroFinal.jpg');
+  background-image: url('../assets/img/masthead_bg.png');
   
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11004,15 +10991,16 @@ header.masthead .masthead-subheading {
 header.masthead .masthead-heading {
   text-align: left;
   font-size: 3.25rem;
-  font-weight: 700;
+
   line-height: 3.25rem;
   margin-bottom: 2rem;
+
   color: #299bdd;
 }
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
+
     padding-bottom: 12.5rem;
     background-position: center 30%;
   }
@@ -11026,7 +11014,6 @@ header.masthead .masthead-heading {
   header.masthead .masthead-heading {
     text-align: left;
     font-size: 4.5rem;
-    font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
     color: #299bdd;
