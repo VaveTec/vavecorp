@@ -8,7 +8,7 @@
 
    
     padding: 15px;
-    transition: all 0.5s ease-in;
+    transition: all 0.25s ease-in;
     height: 500px;
 
 
@@ -17,6 +17,7 @@
 .testimonial-card:hover{
     
     border-color: gold;
+    transform: scale(1.05);
 
     
 
