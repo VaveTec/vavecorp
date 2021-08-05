@@ -1,0 +1,50 @@
+.testimonial-card{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(70, 70, 70);
+    border-color: rgba(255, 217, 0, 0);
+    
+
+   
+    padding: 15px;
+    transition: all 0.5s ease-in;
+    height: 500px;
+
+
+}
+
+.testimonial-card:hover{
+    
+    border-color: gold;
+
+    
+
+}
+
+.testimonial-card-body{
+    font-size: large;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.decor-quote{
+    color: gold;
+    font-size: 60px;
+    transition: all 0.5s ease-in;
+}
+
+.testimonial-card:hover .decor-quote{
+    
+    color:gold;
+
+}
+
+.testimonial-card-footer{
+    
+    background-color: transparent;
+}
+.testimonial-text{
+    font-size: large;
+}
